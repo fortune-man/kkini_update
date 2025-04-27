@@ -9,6 +9,10 @@ public class KkiniUpdateApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(KkiniUpdateApplication.class, args);
 		// hello world!
+		System.out.println("hello world!");
+		for(String arg : args) {
+			System.out.println(arg);
+		}
 	}
 
 }
